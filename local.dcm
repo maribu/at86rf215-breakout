@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT86RF215-ZU
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42415-WIRELESS-AT86RF215_Datasheet.pdf
+$ENDCMP
+#
+$CMP BALUN_ATB2012-75011-T000
+F https://datasheet.lcsc.com/szlcsc/TDK-ATB2012-75011-T000_C76586.pdf
+$ENDCMP
+#
+$CMP TXC_7Z26001013
+F https://datasheet.lcsc.com/szlcsc/TXC-Corp-7Z2603LCSC-CGG4S_C132147.pdf
+$ENDCMP
+#
+#End Doc Library
