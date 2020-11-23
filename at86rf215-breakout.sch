@@ -83,11 +83,11 @@ U 1 1 5F8AEECA
 P 1750 5250
 F 0 "J1" H 1800 4725 50  0000 C CNN
 F 1 "RPi Header" H 1800 4816 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical" H 1750 5250 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical_SMD" H 1750 5250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_HOAUC-2685Y-206CNG1SNA01_C350299.pdf" H 1750 5250 50  0001 C CNN
-F 4 "C350299" H 1750 5250 50  0001 C CNN "LCSC"
-F 5 "BOOMELE(Boom Precision Elec)" H 1750 5250 50  0001 C CNN "Manufacturer"
-F 6 "C36191" H 1750 5250 50  0001 C CNN "PartNumber"
+F 4 "-" H 1750 5250 50  0001 C CNN "LCSC"
+F 5 "FCI / Amphenol " H 1750 5250 50  0001 C CNN "Manufacturer"
+F 6 "89898-306KLF" H 1750 5250 50  0001 C CNN "PartNumber"
 F 7 "FEMALE pin socket, 2.54 mm spacing, 2 * 6 = 12 pins" H 1750 5250 50  0001 C CNN "Description"
 F 8 "-" H 1750 5250 50  0001 C CNN "FootprintPCBWay"
 	1    1750 5250

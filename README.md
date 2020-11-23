@@ -1,8 +1,8 @@
 AT86RF215 Breakout Board
 ========================
 
-![Image of an AT86RF215 Breakout Boards](at86rf215-breakout.png)
-![Image of 2 x 3 Panel of AT86RF215 Breakout Boards](panel_2x3.png)
+![AT86RF215 Breakout Boards Bottom Side](at86rf215-breakout-bottom.png)
+![AT86RF215 Breakout Boards Top Side](at86rf215-breakout-top.png)
 
 This Repository contains an minimal AT86RF215 breakout board. The pin header
 is compatible to the openlabs.co Raspberry Pi 802.15.4 radio. However, this
