@@ -29,30 +29,10 @@ ifneq (,$(strip $(IGNORES_PCBWAY)))
 endif
 
 panel_2x2.kicad_pcb: $(PCB)
-	$(KIKIT) panelize grid \
-			--space 3 \
-			--htabs 1 --vtabs 2 \
-			--tabwidth 3 --tabheight 3 \
-			--gridsize 2 2 \
-			--mousebites 0.5 1 -0.25 \
-			--radius 1 \
-			--panelsize 80 90 \
-			--tooling 5 2.5 1.5 \
-			$(PCB) \
-			$@
+	./panelize.py $(PCB) $@ 2
 
 panel_2x3.kicad_pcb: $(PCB)
-	$(KIKIT) panelize grid \
-			--space 1 \
-			--htabs 1 --vtabs 2 \
-			--tabwidth 3 --tabheight 3 \
-			--gridsize 2 3 \
-			--mousebites 0.5 1.0 -0.2 \
-			--radius 0.2 \
-			--panelsize 100 90 \
-			--tooling 13.5 1.5 1.5 \
-			$(PCB) \
-			$@
+	./panelize.py $(PCB) $@ 3
 
 jlcpcb_panel_2x2: panel_2x2.kicad_pcb
 	$(KIKIT) fab \
