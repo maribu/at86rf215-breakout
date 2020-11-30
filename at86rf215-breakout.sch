@@ -80,72 +80,72 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J1
 U 1 1 5F8AEECA
-P 1750 5250
-F 0 "J1" H 1800 4725 50  0000 C CNN
-F 1 "RPi Header" H 1800 4816 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical_SMD" H 1750 5250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_HOAUC-2685Y-206CNG1SNA01_C350299.pdf" H 1750 5250 50  0001 C CNN
-F 4 "-" H 1750 5250 50  0001 C CNN "LCSC"
-F 5 "FCI / Amphenol " H 1750 5250 50  0001 C CNN "Manufacturer"
-F 6 "89898-306KLF" H 1750 5250 50  0001 C CNN "PartNumber"
-F 7 "FEMALE pin socket, 2.54 mm spacing, 2 * 6 = 12 pins" H 1750 5250 50  0001 C CNN "Description"
-F 8 "-" H 1750 5250 50  0001 C CNN "FootprintPCBWay"
-	1    1750 5250
+P 1850 5250
+F 0 "J1" H 1900 4725 50  0000 C CNN
+F 1 "RPi Header" H 1900 4816 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical_SMD" H 1850 5250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_HOAUC-2685Y-206CNG1SNA01_C350299.pdf" H 1850 5250 50  0001 C CNN
+F 4 "-" H 1850 5250 50  0001 C CNN "LCSC"
+F 5 "FCI / Amphenol " H 1850 5250 50  0001 C CNN "Manufacturer"
+F 6 "89898-306KLF" H 1850 5250 50  0001 C CNN "PartNumber"
+F 7 "FEMALE pin socket, 2.54 mm spacing, 2 * 6 = 12 pins" H 1850 5250 50  0001 C CNN "Description"
+F 8 "-" H 1850 5250 50  0001 C CNN "FootprintPCBWay"
+	1    1850 5250
 	-1   0    0    1   
 $EndComp
-NoConn ~ 1950 5450
-NoConn ~ 1450 4950
-Text Label 1450 5450 2    50   ~ 0
+NoConn ~ 2050 5450
+NoConn ~ 1550 4950
+Text Label 1550 5450 2    50   ~ 0
 IRQ
-Text Label 1450 5350 2    50   ~ 0
+Text Label 1550 5350 2    50   ~ 0
 RST
-Text Label 1450 5050 2    50   ~ 0
+Text Label 1550 5050 2    50   ~ 0
 SEL
-Text Label 1950 5050 0    50   ~ 0
+Text Label 2050 5050 0    50   ~ 0
 SCLK
-Text Label 1950 5150 0    50   ~ 0
+Text Label 2050 5150 0    50   ~ 0
 MISO
-Text Label 1950 5250 0    50   ~ 0
+Text Label 2050 5250 0    50   ~ 0
 MOSI
 $Comp
 L power:GND #PWR0115
 U 1 1 5F8B251A
-P 2250 4950
-F 0 "#PWR0115" H 2250 4700 50  0001 C CNN
-F 1 "GND" H 2255 4777 50  0000 C CNN
-F 2 "" H 2250 4950 50  0001 C CNN
-F 3 "" H 2250 4950 50  0001 C CNN
-	1    2250 4950
+P 2350 4950
+F 0 "#PWR0115" H 2350 4700 50  0001 C CNN
+F 1 "GND" H 2355 4777 50  0000 C CNN
+F 2 "" H 2350 4950 50  0001 C CNN
+F 3 "" H 2350 4950 50  0001 C CNN
+	1    2350 4950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 5F8B27E5
-P 1150 5250
-F 0 "#PWR0116" H 1150 5000 50  0001 C CNN
-F 1 "GND" H 1155 5077 50  0000 C CNN
-F 2 "" H 1150 5250 50  0001 C CNN
-F 3 "" H 1150 5250 50  0001 C CNN
-	1    1150 5250
+P 1250 5250
+F 0 "#PWR0116" H 1250 5000 50  0001 C CNN
+F 1 "GND" H 1255 5077 50  0000 C CNN
+F 2 "" H 1250 5250 50  0001 C CNN
+F 3 "" H 1250 5250 50  0001 C CNN
+	1    1250 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 5250 1450 5250
+	1250 5250 1550 5250
 Wire Wire Line
-	1950 4950 2250 4950
+	2050 4950 2350 4950
 $Comp
 L power:VDD #PWR0117
 U 1 1 5F8B427A
-P 2500 5350
-F 0 "#PWR0117" H 2500 5200 50  0001 C CNN
-F 1 "VDD" H 2515 5523 50  0000 C CNN
-F 2 "" H 2500 5350 50  0001 C CNN
-F 3 "" H 2500 5350 50  0001 C CNN
-	1    2500 5350
+P 2600 5350
+F 0 "#PWR0117" H 2600 5200 50  0001 C CNN
+F 1 "VDD" H 2615 5523 50  0000 C CNN
+F 2 "" H 2600 5350 50  0001 C CNN
+F 3 "" H 2600 5350 50  0001 C CNN
+	1    2600 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 5350 1950 5350
+	2600 5350 2050 5350
 Text Notes 8950 650  2    50   ~ 0
 Sub-Gigahertz Antenna Circuit
 Text Notes 4950 650  2    50   ~ 0
@@ -745,12 +745,6 @@ NoConn ~ 1050 2200
 NoConn ~ 1050 2300
 NoConn ~ 1050 2450
 NoConn ~ 1050 2550
-NoConn ~ 1050 2750
-NoConn ~ 1050 2850
-NoConn ~ 1050 2950
-NoConn ~ 1050 3050
-NoConn ~ 2950 1700
-NoConn ~ 1450 5150
 $Comp
 L Device:R R3
 U 1 1 5F9B6A3D
@@ -1337,4 +1331,129 @@ F 3 "" H 4900 5850 50  0001 C CNN
 	1    4900 5850
 	1    0    0    -1  
 $EndComp
+Text Label 1050 2750 2    50   ~ 0
+FEA24
+Text Label 1050 2850 2    50   ~ 0
+FEB24
+Text Label 1050 2950 2    50   ~ 0
+FEA09
+Text Label 1050 3050 2    50   ~ 0
+FEB09
+Text Label 2950 1700 0    50   ~ 0
+CLKO
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5FC9503E
+P 1150 5150
+F 0 "JP1" H 1150 5263 50  0000 C CNN
+F 1 "solder jumper" H 1150 5264 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1150 5150 50  0001 C CNN
+F 3 "~" H 1150 5150 50  0001 C CNN
+F 4 "Connect CLKO of AT86RF215 to pin 8 of pin header" H 1150 5150 50  0001 C CNN "Description"
+	1    1150 5150
+	1    0    0    -1  
+$EndComp
+Text Label 1000 5150 2    50   ~ 0
+CLKO
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5FC9B1B4
+P 1100 6600
+F 0 "TP2" H 1158 6718 50  0000 L CNN
+F 1 "FEA24" H 1158 6627 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1300 6600 50  0001 C CNN
+F 3 "~" H 1300 6600 50  0001 C CNN
+	1    1100 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5FC9CBCB
+P 1450 6600
+F 0 "TP3" H 1508 6718 50  0000 L CNN
+F 1 "FEB24" H 1508 6627 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1650 6600 50  0001 C CNN
+F 3 "~" H 1650 6600 50  0001 C CNN
+	1    1450 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5FC9D4A9
+P 1800 6600
+F 0 "TP4" H 1858 6718 50  0000 L CNN
+F 1 "FEA09" H 1858 6627 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2000 6600 50  0001 C CNN
+F 3 "~" H 2000 6600 50  0001 C CNN
+	1    1800 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5FC9DC1C
+P 2150 6600
+F 0 "TP5" H 2208 6718 50  0000 L CNN
+F 1 "FEB09" H 2208 6627 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2350 6600 50  0001 C CNN
+F 3 "~" H 2350 6600 50  0001 C CNN
+	1    2150 6600
+	1    0    0    -1  
+$EndComp
+Text Label 1100 6600 3    50   ~ 0
+FEA24
+Text Label 1450 6600 3    50   ~ 0
+FEB24
+Text Label 1800 6600 3    50   ~ 0
+FEA09
+Text Label 2150 6600 3    50   ~ 0
+FEB09
+Wire Notes Line
+	700  6350 2800 6350
+Wire Notes Line
+	2800 6350 2800 6950
+Wire Notes Line
+	2800 6950 700  6950
+Wire Notes Line
+	700  6950 700  6350
+Text Notes 1500 6350 0    50   ~ 0
+Test Points
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5FCB99FB
+P 2500 6600
+F 0 "TP6" H 2558 6718 50  0000 L CNN
+F 1 "GND" H 2558 6627 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2700 6600 50  0001 C CNN
+F 3 "~" H 2700 6600 50  0001 C CNN
+	1    2500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FCBA7E2
+P 2500 6600
+F 0 "#PWR0105" H 2500 6350 50  0001 C CNN
+F 1 "GND" H 2505 6427 50  0000 C CNN
+F 2 "" H 2500 6600 50  0001 C CNN
+F 3 "" H 2500 6600 50  0001 C CNN
+	1    2500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5FCFFEDA
+P 800 6600
+F 0 "TP1" H 858 6718 50  0000 L CNN
+F 1 "CLKO" H 858 6627 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1000 6600 50  0001 C CNN
+F 3 "~" H 1000 6600 50  0001 C CNN
+	1    800  6600
+	1    0    0    -1  
+$EndComp
+Text Label 800  6600 3    50   ~ 0
+CLKO
+Text Label 1300 5150 1    50   ~ 0
+CLKO'
+Wire Wire Line
+	1550 5150 1300 5150
 $EndSCHEMATC
