@@ -5,7 +5,7 @@ PCB := $(PROJECT).kicad_pcb
 SCHEMATIC := $(PROJECT).sch
 KIKIT ?= kikit
 
-all: jlcpcb_panel_2x2 jlcpcb_panel_2x3 pcbway_panel_2x2 pcbway_panel_2x3
+all: pcbway_panel_2x2 pcbway_panel_2x3
 
 IGNORES_JLCPCB :=
 IGNORES_JLCPCB += J1
